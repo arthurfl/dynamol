@@ -23,11 +23,9 @@ Le nombre d'atomes est pour l'instant fixé à 256 (ce nombre est un peu petit m
 - Le nombre de pas total `Nsteps`
 - La température d'équilibration `Temperature_imposed` (en K), ainsi que le nombre de pas pendant lesquels cette température est maintenue `Nequil`
 
-Au cours de cette séance nous allons déterminer la capacité calorifique de l'argon. La capacité calorifique molaire à volume constant d'un composé, notée *Cv*, est l'énergie qu'il faut apporter à une mole de ce composé pour augmenter sa température d'un Kelvin. On peut la définir pour un système de *N* particules :
+Au cours de cette séance nous allons déterminer la capacité calorifique de l'argon. La capacité calorifique molaire à volume constant d'un composé, notée $C_v$, est l'énergie qu'il faut apporter à une mole de ce composé pour augmenter sa température d'un Kelvin. On peut la définir pour un système de $N$ particules :
 
-```math
-Cv(T,P)=\frac{1}{N}\left(\frac{\partial U}{\partial T}\right)_V 
-```
+$$ C_v(T,P)=\frac{1}{N}\left(\frac{\partial U}{\partial T}\right)_V $$
 
 Elle peut donc être calculée par dynamique moléculaire en faisant une série de simulations dans l'ensemble *NVT* à des températures différentes et en déterminant l'énergie moyenne du système *U*. Calculer la variation de *Cv=f(T)* pour l'argon à la densité *d* = 1,428. 
 
