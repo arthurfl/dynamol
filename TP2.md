@@ -1,10 +1,8 @@
 ## TP 2 : Capacité calorifique de l'argon
 
-La capacité calorifique molaire à volume constant d'un composé, notée *Cv*, est l'énergie qu'il faut apporter à une mole de ce composé pour augmenter sa température d'un Kelvin. On peut la définir pour un système de *N* particules :
+La capacité calorifique molaire à volume constant d'un composé, notée $C_v$, est l'énergie qu'il faut apporter à une mole de ce composé pour augmenter sa température d'un Kelvin. On peut la définir pour un système de $N$ particules :
 
-```math
-Cv(T,P)=\frac{1}{N}\left(\frac{\partial U}{\partial T}\right)_V 
-```
+$$ C_v(T,P)=\frac{1}{N}\left(\frac{\partial U}{\partial T}\right)_V $$
 
 Elle peut donc être calculée dans par dynamique moléculaire en faisant une série de simulations dans l'ensemble *NVT* à des températures différentes et en déterminant l'énergie moyenne du système *U*. Calculer la variation de *Cv=f(T)* pour l'argon à la densité *d* = 1,428. 
 
