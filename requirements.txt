@@ -3,3 +3,5 @@ nglview
 numpy
 matplotlib
 numba
+ipywidgets=7.6.3
+jupyter
